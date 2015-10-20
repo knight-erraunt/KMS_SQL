@@ -9,8 +9,8 @@ CREATE TABLE people (
 CREATE TABLE archive_files (
 	archive_file_id INTEGER PRIMARY KEY
 	signature VARCHAR(20),
-    time DATE,
-    description TEXT
+	time DATE,
+	description TEXT
 );
 
 CREATE TABLE people_to_archive_files (
